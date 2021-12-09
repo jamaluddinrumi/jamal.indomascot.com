@@ -1,5 +1,13 @@
 <template>
-  <section class="bg-white dark:bg-gray-800">
+  <section
+    class="
+      bg-gradient-to-br
+      from-green-400
+      via-pink-300
+      to-purple-700
+      dark:bg-gray-800
+    "
+  >
     <layout-top-bar-line />
     <layout-header />
     <layout-breadcrumb />

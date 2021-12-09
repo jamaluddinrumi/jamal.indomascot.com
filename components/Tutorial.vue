@@ -1,16 +1,14 @@
 <!-- Please remove this file from your project -->
 <template>
-  <div
-    class="relative flex items-center justify-center min-h-screen bg-gray-100"
-  >
+  <div class="relative flex items-center justify-center min-h-screen">
     <div class="max-w-4xl mx-auto px-4 md:px-6">
       <nuxt-link
         class="flex justify-center pt-8 sm:pt-0"
         :to="{ name: 'index' }"
       >
-        <img class="w-20" src="/img/ngodingmanusiawi-logo.svg" />
+        <ngoding-manusiawi-logo class="w-auto h-32" />
       </nuxt-link>
-      <div class="mt-4 bg-white overflow-hidden shadow sm:rounded-lg p-6">
+      <div class="mt-4 bg-white overflow-hidden shadow-lg sm:rounded-lg p-6">
         <h1
           class="
             text-2xl
@@ -18,8 +16,9 @@
             font-semibold
             text-center text-transparent
             bg-clip-text bg-gradient-to-r
-            from-green-600
-            to-blue-900
+            from-green-400
+            via-pink-300
+            to-purple-700
           "
         >
           Ngoding Manusiawi
@@ -32,8 +31,9 @@
             font-semibold
             text-center text-transparent
             bg-clip-text bg-gradient-to-r
-            from-purple-600
-            to-indigo-900
+            from-purple-700
+            via-pink-300
+            to-green-400
           "
         >
           Ngoding Untuk Bermanfaat Seluas-Luasnya.
