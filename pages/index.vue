@@ -1,5 +1,5 @@
 <template>
-  <Tutorial/>
+  <center-message/>
 </template>
 
 <script>
