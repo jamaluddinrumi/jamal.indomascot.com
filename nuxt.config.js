@@ -38,10 +38,13 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    "@nuxtjs/dotenv",
     // https://image.nuxtjs.org/getting-started/installation
     '@nuxt/image',
     // https://go.nuxtjs.dev/tailwindcss
     "@nuxtjs/tailwindcss",
+    // https://go.nuxtjs.dev/pwa
+    "@nuxtjs/pwa",
   ],
 
   image: {
@@ -57,8 +60,6 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     "@nuxtjs/axios",
-    // https://go.nuxtjs.dev/pwa
-    "@nuxtjs/pwa",
     // https://i18n.nuxtjs.org/setup
     "@nuxtjs/i18n",
     // https://oruga.io/documentation/#setup
@@ -73,8 +74,19 @@ export default {
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
+    meta: {
+      name: "Ngoding Manusiawi",
+      author: "Jamaluddin Rumi",
+      description: "Website Ngoding Manusiawi",
+      theme_color: "#0033cc",
+      lang: "id",
+      ogHost: process.env.BASE_URL,
+    },
     manifest: {
-      lang: "en",
+      name: "Ngoding Manusiawi",
+      short_name: "Ngoding Manusiawi",
+      lang: "id",
+      useWebmanifestExtension: false,
     },
   },
 
