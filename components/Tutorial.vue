@@ -8,7 +8,7 @@
       >
         <ngoding-manusiawi-logo class="w-auto h-32" />
       </nuxt-link>
-      <div class="mt-4 bg-white overflow-hidden shadow-lg sm:rounded-lg p-6">
+      <div class="mt-4 bg-white overflow-hidden shadow-lg rounded-lg p-6">
         <h1
           class="
             text-2xl
