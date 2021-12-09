@@ -82,12 +82,6 @@ export default {
       lang: "id",
       ogHost: process.env.BASE_URL,
     },
-    manifest: {
-      name: "Ngoding Manusiawi",
-      short_name: "Ngoding Manusiawi",
-      lang: "id",
-      useWebmanifestExtension: false,
-    },
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
