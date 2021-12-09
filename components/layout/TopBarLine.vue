@@ -1,7 +1,7 @@
 <template>
   <div
     id="loading-line"
-    class="w-full border-t-4 border-black z-10 shadow fixed"
+    class="w-full border-t-4 border-gray-100 z-10 shadow-sm fixed"
   ></div>
 </template>
 

@@ -1,4 +1,17 @@
 export default {
+  // https://nuxtjs.org/docs/features/loading
+  loadingIndicator: {
+    name: "wandering-cubes",
+    color: "#003399",
+    background: "#000000",
+  },
+
+  loading: {
+    color: "#000000",
+    height: "2px",
+    throttle: 0,
+  },
+
   // Target: https://go.nuxtjs.dev/config-target
   target: "static",
 
