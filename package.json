@@ -17,6 +17,7 @@
     "nuxt": "^2.15.7"
   },
   "devDependencies": {
+    "@nuxt/image": "^0.6.0",
     "@nuxtjs/tailwindcss": "^4.2.0",
     "@tailwindcss/typography": "^0.4.1",
     "lodash.startcase": "^4.4.0",

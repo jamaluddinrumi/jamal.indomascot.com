@@ -25,9 +25,15 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    // https://image.nuxtjs.org/getting-started/installation
+    '@nuxt/image',
     // https://go.nuxtjs.dev/tailwindcss
     "@nuxtjs/tailwindcss",
   ],
+
+  image: {
+
+  },
 
   // https://tailwindcss.nuxtjs.org/options
   tailwindcss: {
