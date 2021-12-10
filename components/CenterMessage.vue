@@ -16,7 +16,7 @@
             font-semibold
             text-center text-transparent
             bg-clip-text bg-gradient-to-r
-            from-green-400
+            from-emerald-400
             via-pink-300
             to-purple-700
           "
@@ -33,7 +33,7 @@
             bg-clip-text bg-gradient-to-r
             from-purple-700
             via-pink-300
-            to-green-400
+            to-emerald-400
           "
         >
           Ngoding Untuk Bermanfaat Seluas-Luasnya.

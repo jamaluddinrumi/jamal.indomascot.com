@@ -2,7 +2,7 @@
   <section
     class="
       bg-gradient-to-br
-      from-green-400
+      from-emerald-400
       via-pink-300
       to-purple-700
       dark:bg-gray-800

@@ -39,6 +39,8 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     "@nuxtjs/dotenv",
+    // https://tailwindcss.com/docs/guides/nuxtjs
+    "@nuxt/postcss8",
     // https://image.nuxtjs.org/getting-started/installation
     '@nuxt/image',
     // https://go.nuxtjs.dev/tailwindcss
@@ -85,5 +87,11 @@ export default {
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    postcss: {
+      plugins: {
+        tailwindcss: {},
+        autoprefixer: {},
+      },
+    },},
 };

@@ -14,7 +14,7 @@
           to="/"
           class="space cursor-pointer z-50 flex-col justify-center items-center flex pt-4 px-8 rounded-md text-purple-800 transform duration-150 ease-in hover:text-white hover:scale-105"
         >
-          <nuxt-picture src="/img/rakarsa-logo-text.svg" />
+          <ngoding-manusiawi-logo class="h-32 w-auto" />
         <!-- DON T FORGET TO CHANGE THE IMG -->
           <!-- <img src="/astronaut.png" alt="" /> -->
         </nuxt-link>

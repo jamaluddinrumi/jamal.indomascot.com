@@ -1,8 +1,10 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   important: true,
   mode: "jit",
-  purge: [
-    "./components/**/*.{vue,js}",
+  content: [
+    "./components/**/*.{js,vue,ts}",
     "./layouts/**/*.vue",
     "./pages/**/*.vue",
     "./plugins/**/*.{js,ts}",
@@ -23,6 +25,10 @@ module.exports = {
         "whatsapp-teal-green-dark": "#075E54",
         "whatsapp-light-green": "#25D366",
         "whatsapp-blue": "#34B7F1",
+        gray: colors.gray,
+        emerald: colors.emerald,
+        indigo: colors.indigo,
+        yellow: colors.yellow,
       },
     },
   },
