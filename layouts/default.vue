@@ -8,7 +8,6 @@
       dark:bg-gray-800
     "
   >
-    <layout-top-bar-line />
     <layout-header />
     <layout-breadcrumb />
     <nuxt />
