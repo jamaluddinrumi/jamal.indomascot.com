@@ -10,33 +10,15 @@
       </nuxt-link>
       <div class="mt-4 bg-white overflow-hidden shadow-lg rounded-lg p-6">
         <h1
-          class="
-            text-2xl
-            leading-7
-            font-semibold
-            text-center text-transparent
-            bg-clip-text bg-gradient-to-r
-            from-emerald-400
-            via-pink-300
-            to-purple-700
-          "
+          class="text-2xl leading-7 font-semibold text-center text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-pink-300 to-purple-700"
         >
           Ngoding Manusiawi
         </h1>
         <h2
-          class="
-            mt-1
-            text-base
-            leading-7
-            font-semibold
-            text-center text-transparent
-            bg-clip-text bg-gradient-to-r
-            from-purple-700
-            via-pink-300
-            to-emerald-400
-          "
+          class="mt-1 text-base leading-7 font-semibold text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-700 via-pink-300 to-emerald-400"
         >
-          Ngoding Untuk Bermanfaat Seluas-Luasnya.
+          Ngoding untuk <span class="underline">bermanfaat</span> bukan untuk
+          <span class="italic">"mblenger"</span>.
         </h2>
       </div>
     </div>
