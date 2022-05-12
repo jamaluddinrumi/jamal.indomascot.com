@@ -1,4 +1,3 @@
-<!-- Please remove this file from your project -->
 <template>
   <div class="relative flex items-center justify-center min-h-screen">
     <div class="max-w-4xl mx-auto px-4 md:px-6">
