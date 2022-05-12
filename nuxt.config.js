@@ -17,7 +17,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "Ngoding Manusiawi - Ngoding Untuk Bermanfaat Seluas-Luasnya.",
+    title: "Marketing Practitioner - Jamaluddin Rumi",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -42,16 +42,14 @@ export default {
     // https://tailwindcss.com/docs/guides/nuxtjs
     "@nuxt/postcss8",
     // https://image.nuxtjs.org/getting-started/installation
-    '@nuxt/image',
+    "@nuxt/image",
     // https://go.nuxtjs.dev/tailwindcss
     "@nuxtjs/tailwindcss",
     // https://go.nuxtjs.dev/pwa
     "@nuxtjs/pwa",
   ],
 
-  image: {
-
-  },
+  image: {},
 
   // https://tailwindcss.nuxtjs.org/options
   tailwindcss: {
@@ -93,5 +91,6 @@ export default {
         tailwindcss: {},
         autoprefixer: {},
       },
-    },},
+    },
+  },
 };
